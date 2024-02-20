@@ -25,108 +25,106 @@ const HeaderSec = () => {
                   className="sm:max-w-[170px] max-w-[130px] w-full"
                 />
               </a>
-              <ul
-                className={`${
-                  show ? "left-[-100%]" : "left-0"
-                } flex max-lg:fixed max-lg:top-0 max-lg:bg-navpattern md:bg-full bg-cover max-lg:h-full max-lg:w-full max-lg:z-[7] max-lg:transition-all max-lg:duration-300 max-lg:ease-linear max-lg:min-h-screen max-lg:flex-col gap-6 items-center justify-center`}
-              >
-                <li onClick={() => setShow(!show)}>
-                  <a
-                    href="#about"
-                    className="font-medium text-[16px] leading-[24px] text-[#C1C1C1] hover:after:w-[95%] after:mx-auto after:right-0 after:items-center after:w-0 after:absolute after:bg-[#fff624] hover:text-[#fff624] after:h-[2px] relative after:left-[0] after:bottom-[-2px] after:rounded-[10px] after:transition-all after:duration-300 after:ease-linear"
-                  >
-                    About
-                  </a>
-                </li>
-                <li onClick={() => setShow(!show)}>
-                  <a
-                    href="#Tokenomics"
-                    className="font-medium text-[16px] leading-[24px] text-[#C1C1C1] hover:after:w-[95%] after:mx-auto after:right-0 after:items-center after:w-0 after:absolute after:bg-[#fff624] hover:text-[#fff624] after:h-[2px] relative after:left-[0] after:bottom-[-2px] after:rounded-[10px] after:transition-all after:duration-300 after:ease-linear"
-                  >
-                    Tokenomics
-                  </a>
-                </li>
-                <li onClick={() => setShow(!show)}>
-                  <a
-                    href="#Audit"
-                    className="font-medium text-[16px] leading-[24px] text-[#C1C1C1] hover:after:w-[95%] after:mx-auto after:right-0 after:items-center after:w-0 after:absolute after:bg-[#fff624] hover:text-[#fff624] after:h-[2px] relative after:left-[0] after:bottom-[-2px] after:rounded-[10px] after:transition-all after:duration-300 after:ease-linear"
-                  >
-                    Audit
-                  </a>
-                </li>
-                <li onClick={() => setShow(!show)}>
-                  <a
-                    href="#Roadmap"
-                    className="font-medium text-[16px] leading-[24px] text-[#C1C1C1] hover:after:w-[95%] after:mx-auto after:right-0 after:items-center after:w-0 after:absolute after:bg-[#fff624] hover:text-[#fff624] after:h-[2px] relative after:left-[0] after:bottom-[-2px] after:rounded-[10px] after:transition-all after:duration-300 after:ease-linear"
-                  >
-                    Roadmap
-                  </a>
-                </li>
-                <li onClick={() => setShow(!show)}>
-                  <a
-                    href="#whitepapper"
-                    className="font-medium text-[16px] leading-[24px] text-[#C1C1C1] hover:after:w-[95%] after:mx-auto after:right-0 after:items-center after:w-0 after:absolute after:bg-[#fff624] hover:text-[#fff624] after:h-[2px] relative after:left-[0] after:bottom-[-2px] after:rounded-[10px] after:transition-all after:duration-300 after:ease-linear"
-                  >
-                    White Paper
-                  </a>
-                </li>
-              </ul>
-              <div className="flex items-center sm:gap-5 gap-3">
-              <div className="relative group">
-                  <div
-                    className="flex items-center lg:gap-3 sm:gap-1 gap-[2px] cursor-pointer"
-                  >
-                    <img
-                      src={EngIcon}
-                      alt="EngIcon"
-                      className="lg:max-w-[32px] ms:max-w-[30px] max-w-[27px] w-full"
-                    />
-                    <div
-                      className="transition-all duration-300 ease-linear group-hover:rotate-[180deg]"
+              <div className="flex gap-[60px]">
+                <ul
+                  className={`${
+                    show ? "left-[-100%]" : "left-0"
+                  } flex max-lg:fixed max-lg:top-0 max-lg:bg-navpattern md:bg-full bg-cover max-lg:h-full max-lg:w-full max-lg:z-[7] max-lg:transition-all max-lg:duration-300 max-lg:ease-linear max-lg:min-h-screen max-lg:flex-col gap-6 items-center justify-center`}
+                >
+                  <li onClick={() => setShow(!show)}>
+                    <a
+                      href="#about"
+                      className="font-medium text-[16px] leading-[24px] text-[#C1C1C1] hover:after:w-[95%] after:mx-auto after:right-0 after:items-center after:w-0 after:absolute after:bg-[#fff624] hover:text-[#fff624] after:h-[2px] relative after:left-[0] after:bottom-[-2px] after:rounded-[10px] after:transition-all after:duration-300 after:ease-linear"
                     >
-                      <UpdownArrow />
+                      About
+                    </a>
+                  </li>
+                  <li onClick={() => setShow(!show)}>
+                    <a
+                      href="#Tokenomics"
+                      className="font-medium text-[16px] leading-[24px] text-[#C1C1C1] hover:after:w-[95%] after:mx-auto after:right-0 after:items-center after:w-0 after:absolute after:bg-[#fff624] hover:text-[#fff624] after:h-[2px] relative after:left-[0] after:bottom-[-2px] after:rounded-[10px] after:transition-all after:duration-300 after:ease-linear"
+                    >
+                      Tokenomics
+                    </a>
+                  </li>
+                  <li onClick={() => setShow(!show)}>
+                    <a
+                      href="#Audit"
+                      className="font-medium text-[16px] leading-[24px] text-[#C1C1C1] hover:after:w-[95%] after:mx-auto after:right-0 after:items-center after:w-0 after:absolute after:bg-[#fff624] hover:text-[#fff624] after:h-[2px] relative after:left-[0] after:bottom-[-2px] after:rounded-[10px] after:transition-all after:duration-300 after:ease-linear"
+                    >
+                      Audit
+                    </a>
+                  </li>
+                  <li onClick={() => setShow(!show)}>
+                    <a
+                      href="#Roadmap"
+                      className="font-medium text-[16px] leading-[24px] text-[#C1C1C1] hover:after:w-[95%] after:mx-auto after:right-0 after:items-center after:w-0 after:absolute after:bg-[#fff624] hover:text-[#fff624] after:h-[2px] relative after:left-[0] after:bottom-[-2px] after:rounded-[10px] after:transition-all after:duration-300 after:ease-linear"
+                    >
+                      Roadmap
+                    </a>
+                  </li>
+                  <li onClick={() => setShow(!show)}>
+                    <a
+                      href="#whitepapper"
+                      className="font-medium text-[16px] leading-[24px] text-[#C1C1C1] hover:after:w-[95%] after:mx-auto after:right-0 after:items-center after:w-0 after:absolute after:bg-[#fff624] hover:text-[#fff624] after:h-[2px] relative after:left-[0] after:bottom-[-2px] after:rounded-[10px] after:transition-all after:duration-300 after:ease-linear"
+                    >
+                      White Paper
+                    </a>
+                  </li>
+                </ul>
+                <div className="flex items-center sm:gap-5 gap-3">
+                  <div className="relative group">
+                    <div className="flex items-center lg:gap-3 sm:gap-1 gap-[2px] cursor-pointer">
+                      <img
+                        src={EngIcon}
+                        alt="EngIcon"
+                        className="lg:max-w-[32px] ms:max-w-[30px] max-w-[27px] w-full"
+                      />
+                      <div className="transition-all duration-300 ease-linear group-hover:rotate-[180deg]">
+                        <UpdownArrow />
+                      </div>
+                    </div>
+                    <div className="absolute mt-2 w-24 rounded-md right-0 bg-white focus:outline-none group-hover:visible invisible transition-all duration-300 ease-linear">
+                      <a
+                        href="#"
+                        className="block px-4 py-2 text-sm text-black font-medium hover:text-white hover:rounded-md hover:bg-[#cec932] transition-all duration-300 ease-linear"
+                      >
+                        Spanish
+                      </a>
+                      <a
+                        href="#"
+                        className="block px-4 py-2 text-sm text-black font-medium hover:text-white hover:rounded-md hover:bg-[#cec932] transition-all duration-300 ease-linear"
+                      >
+                        Eng
+                      </a>
                     </div>
                   </div>
-                  <div className="absolute mt-2 w-24 rounded-md right-0 bg-white focus:outline-none group-hover:visible invisible transition-all duration-300 ease-linear">
-                    <a
-                      href="#"
-                      className="block px-4 py-2 text-sm text-black font-medium hover:text-white hover:rounded-md hover:bg-[#cec932] transition-all duration-300 ease-linear"
-                    >
-                      Spanish
-                    </a>
-                    <a
-                      href="#"
-                      className="block px-4 py-2 text-sm text-black font-medium hover:text-white hover:rounded-md hover:bg-[#cec932] transition-all duration-300 ease-linear"
-                    >
-                      Eng
-                    </a>
+                  <div
+                    onClick={() => setShow(!show)}
+                    className="lg:hidden w-[28px] h-[20px] relative z-[10] flex justify-between flex-col"
+                  >
+                    <span
+                      className={`${
+                        show
+                          ? "bg-white h-[3px] w-full duration-300 rounded-[3px] ease-linear transition-all"
+                          : "bg-white transition-all duration-300 rounded-[3px] ease-linear h-[4px] w-full rotate-[50deg] translate-y-[14px]"
+                      }`}
+                    ></span>
+                    <span
+                      className={`${
+                        show
+                          ? "bg-white h-[3px] w-full duration-300 rounded-[3px] ease-linear transition-all"
+                          : "duration-300 rounded-[3px] ease-linear transition-all hidden"
+                      }`}
+                    ></span>
+                    <span
+                      className={`${
+                        show
+                          ? "bg-white h-[3px] w-full duration-300 rounded-[3px] ease-linear transition-all"
+                          : "bg-white transition-all duration-300 rounded-[3px] ease-linear h-[4px] w-full rotate-[-50deg] translate-y-[-50%]"
+                      }`}
+                    ></span>
                   </div>
-                </div>
-                <div
-                  onClick={() => setShow(!show)}
-                  className="lg:hidden w-[28px] h-[20px] relative z-[10] flex justify-between flex-col"
-                >
-                  <span
-                    className={`${
-                      show
-                        ? "bg-white h-[3px] w-full duration-300 rounded-[3px] ease-linear transition-all"
-                        : "bg-white transition-all duration-300 rounded-[3px] ease-linear h-[4px] w-full rotate-[50deg] translate-y-[14px]"
-                    }`}
-                  ></span>
-                  <span
-                    className={`${
-                      show
-                        ? "bg-white h-[3px] w-full duration-300 rounded-[3px] ease-linear transition-all"
-                        : "duration-300 rounded-[3px] ease-linear transition-all hidden"
-                    }`}
-                  ></span>
-                  <span
-                    className={`${
-                      show
-                        ? "bg-white h-[3px] w-full duration-300 rounded-[3px] ease-linear transition-all"
-                        : "bg-white transition-all duration-300 rounded-[3px] ease-linear h-[4px] w-full rotate-[-50deg] translate-y-[-50%]"
-                    }`}
-                  ></span>
                 </div>
               </div>
             </nav>

@@ -79,7 +79,7 @@ const About = () => {
                 </div>
                 <a
                   href=""
-                  className="font-bold text-[16px] leading-[150%] text-[#010101] flex justify-center items-center py-3 rounded-[10px] bg-[#FFF624] px-8 hover:bg-black group hover:shadow-[0px_6px_15px_0px_#FFF624] hover:text-[#FFF624] transition-all duration-500 ease-linear"
+                  className="font-bold text-[16px] leading-[150%] text-[#010101] md:w-full flex justify-center items-center py-3 rounded-[10px] bg-[#FFF624] px-8 hover:bg-black group hover:shadow-[0px_6px_15px_0px_#FFF624] hover:text-[#FFF624] transition-all duration-500 ease-linear"
                 >
                   Buy Now
                 </a>
